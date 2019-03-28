@@ -1,0 +1,49 @@
+/* default width for different devices */
+@media(max-width:720px)
+{
+
+}
+
+/* Body style */
+body
+{
+	padding: 0px;
+  border: 0px;
+  margin: 0px;
+  width: 100%;
+	/* background-color: #f4f4f4; will give the div an elavated look */
+	background-color:#f4f4f4;
+  /* color:#555; */
+  color: #fff;
+  background-image: url(/img/img1.jpg);
+  background-position:center middle;
+  min-height:500px;
+  /* margin-bottom:30px; */
+	/* font-family:Arial, Helvetica, sans-serif; */
+	font-family: sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+}
+
+.name
+{
+  margin-top: 300px;
+  border: 0px;
+  padding: 0px;
+  /* background-color: inherit; */
+  color: #fff;
+  font-family: sans-serif;
+	font-size:50px;
+	line-height: 2.4em;
+  text-align: center;
+}
+
+/* #id-h1
+{
+	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-family: sans-serif;
+	font-size:100px;
+	line-height: 2.4em;
+	margin:0px;
+} */
