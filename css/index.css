@@ -14,7 +14,6 @@ html, body {
   margin: 0px;
   border: 0px;
 	padding: 0px;
-	padding-bottom: 50px;
   width: 100%;
   height: 100%;
   background-image: url(/img/img1.jpg);
@@ -29,22 +28,64 @@ html, body {
 
 /* body container starts here */
 #container {
+  min-height: 100%;
+}
 
+#main {
+  overflow: auto;
+  padding-bottom: 50px;
 }
 /* body container starts here */
 
 /* footer start here */
 #footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
   margin: 0px;
   border: 0px;
   padding: 0px;
-  background-color: #000;
-  color: #f4f4f4;
   padding-top: -50px;
+  /* background-color: #000; */
+  color: #f4f4f4;
+  height: 50px;
+  position: relative;
   clear: both;
 }
+
+#footer a {
+  color: #aaa;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.box-1, .box-2, .box-3 {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  text-align: center;
+}
+
+.box-1 {
+  flex: 20%;
+  order: 1;
+}
+
+.box-2 {
+  flex: 60%;
+  order: 2;
+}
+
+.box-3 {
+  flex: 20%;
+  order: 2;
+}
+
 /* footer ends here */
 
+/* header starts here */
 .menubar {
   /* background-color: #333; */
   overflow: hidden;
@@ -56,7 +97,9 @@ html, body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 24px;
+  /* font-family: Times New Roman; */
+  font-family: Times New Roman Impact;
+  font-size: 30px;
 }
 
 .menubar a:hover {
@@ -68,8 +111,12 @@ html, body {
   float: right;
 }
 
+.navbar a {
+  font-family: sans-serif;
+  font-size: 18px;
+}
 .name {
-  margin-top: 300px;
+  margin-top: 250px;
   border: 0px;
   padding: 0px;
   /* background-color: inherit; */
@@ -79,24 +126,5 @@ html, body {
 	line-height: 2.4em;
   text-align: center;
 }
+/* header ends here */
 
-.footer {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.footer a {
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 15px;
-}
-
-.container-1, .container-2, .container-3 {
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
-  background-color: aqua;
-}
