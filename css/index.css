@@ -167,15 +167,8 @@ html, body {
 }
 
 .button:hover {
-  animation-name: button;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  animation-direction: normal;
-}
-
-@keyframes button {
-  from {transform: scale(1.0);}
-  to {transform: scale(1.15);}
+  transition: 0.8s ease-in-out;
+  transform: scale(1.1)
 }
 
 button a {
