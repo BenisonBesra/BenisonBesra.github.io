@@ -19,9 +19,9 @@ html, body {
   background-image: url(/img/img1.jpg);
   background-position:center middle;
   /* background-repeat: no-repeat; */
-	background-color:#f4f4f4;
+  /* background-color:#f4f4f4; */
   color: #fff;
-	font-family: sans-serif;
+	font-family: Georgia;
 	font-size:16px;
 	line-height:1.6em;
 }
@@ -34,6 +34,7 @@ html, body {
 #main {
   overflow: auto;
   padding-bottom: 50px;
+  /* height: 600px; */
 }
 /* body container starts here */
 
@@ -97,7 +98,7 @@ html, body {
   padding: 14px 16px;
   text-decoration: none;
   /* font-family: Times New Roman; */
-  font-family: Times New Roman Impact;
+  font-family: Georgia;
   font-size: 30px;
 }
 
@@ -118,7 +119,7 @@ html, body {
 
 /* Main body starts here*/
 .name {
-  margin-top: 250px;
+  margin-top: 175px;
   border: 0px;
   padding: 0px;
   /* background-color: inherit; */
@@ -129,29 +130,22 @@ html, body {
   text-align: center;
 }
 
-.btn {
-  height: 100px;
-  width: 300px;
-  border: solid #fff 5px;
+.tag-line {
+  border: 0px;
+  padding: 0px;
+  /* background-color: inherit; */
+  color: #fff;
+  font-family: verdana;
+	font-size:18px;
+	line-height: 1.4em;
+  text-align: center;
 }
-
-.btn a {
-}
-
-button.btn a {
-  text-decoration: none;
-  height: 50px;
-  width: 300px;
-  border: #fff solid 5px;
-  z-index: 3;
-}
-
-/* test code */
 
 .div-button {
   margin-top: 15px;
   border: 0px;
   padding: 0px;
+  text-align: center;
   /* align-content: center; */
   background-color: inherit;
 }
@@ -180,9 +174,5 @@ button.btn a {
 button a {
   text-decoration: none;
 }
-
-button.button a {
-  text-decoration: none;
-}
-
 /* Main body Ends here */
+
